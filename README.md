@@ -18,4 +18,4 @@
 
 
 2.Data Explore
-
+  2.1Read the file loan-clean-shiyan.csv and observe it, and find that there are a large number of invalid values in the file
