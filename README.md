@@ -29,7 +29,7 @@
 
 ###### warnings.filterwarnings('ignore')
 
-### 3.view the data and convert member_id from float type to string type
+### 3.View the data and convert member_id from float type to string type
 
 ###### data1.info()
 ###### data1.member_id=data1.member_id.astype('str')
