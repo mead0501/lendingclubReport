@@ -23,6 +23,8 @@
 ###### data1=pd.read_csv(r'F:\****\***\Python\**预测\3.8\loan-clean-shiyan.csv')
 ###### data1
 
+![image](images/1.png)
+
 -2.2To reduce programming interference, turn off warnings
 
 ###### import warnings
