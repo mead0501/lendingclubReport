@@ -23,7 +23,7 @@
 ###### data1=pd.read_csv(r'F:\****\***\Python\**预测\3.8\loan-clean-shiyan.csv')
 ###### data1
 
-![image](https://github.com/mead0501/lendingclubReport/edit/master/README.md/images/1.png)
+![image](https://github.com/mead0501/lendingclubReport/edit/master/README.md/1.jpg)
 
 -2.2To reduce programming interference, turn off warnings
 
