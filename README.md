@@ -23,7 +23,7 @@
 ###### data1=pd.read_csv(r'F:\****\***\Python\**预测\3.8\loan-clean-shiyan.csv')
 ###### data1
 
-![image](https://github.com/mead0501/lendingclubReport/edit/master/README.md/1.jpg)
+![image](https://github.com/mead0501/pics/blob/main/1.jpg)
 
 -2.2To reduce programming interference, turn off warnings
 
@@ -60,6 +60,8 @@
 
 ###### data4=data3.loc[:,['member_id','grade','annual_inc','loan_amnt','term','rate','installment','lastpay']]
 
+![image](https://github.com/mead0501/pics/blob/main/2.jpg)
+
 ### 5.Save the output
 
 ###### data4.to_csv('data_BA1.csv',index=False)
@@ -78,11 +80,17 @@ It is found that there is no obvious relationship between customer grade and ann
 
 ###### sns.lmplot(x='grade',y='loan_amnt',data=df,fit_reg=False)
 
+![image](https://github.com/mead0501/pics/blob/main/3.png)
+
 ###### sns.lmplot(x='grade',y='annual_inc',data=df,fit_reg=False)
+
+![image](https://github.com/mead0501/pics/blob/main/4.png)
 
 -6.2 Scatterplot of grade and rate
 
 Further breakdown shows that customer grade is highly correlated with interest rate. The higher the customer grade, the lower the interest rate. At the same time, this same pattern is observed regardless of the loan term.
+
+![image](https://github.com/mead0501/pics/blob/main/5.png)
 
 ### 7. Construct an identification function to predict the ability of the customer to repay the loan
 
@@ -106,5 +114,8 @@ Calculate the median and save the result
 
 ###### df
 
+![image](https://github.com/mead0501/pics/blob/main/6.png)
+
 ###### print(sum(df.J))
+###### 10379
 🙌
